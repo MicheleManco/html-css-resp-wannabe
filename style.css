@@ -73,9 +73,7 @@ img {
 }
 
 @media all and (max-width: 420px) {
-  body {
-    font-size: 1.6rem;
-  }
+
   .row {
     width: 100%;
     margin-top: 15px;
@@ -87,21 +85,16 @@ img {
   .container {
     margin: 10px auto 30px;
     width: 80%;
-  }
-  
-  .row div {
-    margin-top: 50px;
+    font-size: 1.6rem;
   }
 
   #lezioni .row>.left, 
-  #lezioni .row>.right{
-    width:90%;
-  }
-
+  #lezioni .row>.right,
   #steps .row>.left, 
   #steps .row>.central, 
   #steps .row>.right {
-    width: 90%;
+    width:90%;
+    margin-top: 50px;
   }
 
   #why .row img{
