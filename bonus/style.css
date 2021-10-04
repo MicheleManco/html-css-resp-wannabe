@@ -74,7 +74,7 @@ img {
 
 @media all and (max-width: 420px) {
   body {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .row {
     width: 100%;
@@ -93,14 +93,11 @@ img {
     margin-top: 50px;
   }
 
-  #lezioni .row>.left, 
-  #lezioni .row>.right{
+  #lezioni .row>.left, #lezioni .row>.right{
     width:90%;
   }
 
-  #steps .row>.left, 
-  #steps .row>.central, 
-  #steps .row>.right {
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
     width: 90%;
   }
 
@@ -108,8 +105,16 @@ img {
     padding: 20px;
   }
 
-  .container img {
+   .container img {
     width: 80%;
     height: auto;
   }
+} 
+
+@media all and (max-width: 800px){
+
+  body{
+    font-size: 1.5rem;
+  }
+
 }
