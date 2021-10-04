@@ -77,10 +77,16 @@ img {
     font-size: 1.5rem;
   }
 
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+
   .row {
     width: 100%;
-    margin-top: 50px;
+    margin: 0px;
   }
+
   #lezioni .row > .left, 
   #lezioni .row > .right,
   #steps .row>.left, 
@@ -108,7 +114,6 @@ img {
   }
 
   .container {
-    margin: 10px auto 30px;
     width: 80%;
     font-size: 1.6rem;
   }
